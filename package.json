@@ -1,0 +1,22 @@
+{
+  "name": "pgntofen",
+  "version": "0.0.1",
+  "description": "Javascript PGN to FEN converter",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "chess",
+    "pgn",
+    "fen",
+    "converter"
+  ],
+  "author": "MattMaginniss",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
