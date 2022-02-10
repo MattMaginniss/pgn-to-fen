@@ -23,4 +23,5 @@ function getFENpositions() {
   // TODO: will calculate the fenPositions string from the chessBoardArray
 }
 
-console.log(printFEN())
+
+module.exports = { printFEN, getFENpositions }
