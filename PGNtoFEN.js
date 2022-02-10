@@ -23,8 +23,8 @@ function printFEN() {
 
 function getFENpositions() {
   currentFEN = ''
-  rowStarts = [8, 16, 24, 32, 40, 48, 56, 64]
-  rowStarts.forEach(n => {
+  rowEnds = [8, 16, 24, 32, 40, 48, 56, 64]
+  rowEnds.forEach(n => {
     blankSquares = 0
     chessBoardArray.slice(n-8, n).forEach(i => {
       if (i !== '1') {
