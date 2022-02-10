@@ -1,6 +1,6 @@
 {
   "name": "pgn-to-fen",
-  "version": "0.0.4",
+  "version": "0.0.1",
   "description": "Javascript PGN to FEN converter",
   "main": "main.js",
   "scripts": {
@@ -14,12 +14,11 @@
     "fen",
     "converter"
   ],
-  "author": {
-    "name": "Matthew Maginniss",
-    "email": "dev@mattmaginniss.com",
-    "url": "https://matthewmaginniss.com"
+  "author": "Matthew Maginniss <dev@mattmaginniss.com> (https://matthewmaginniss.com)",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MatthewMaginniss/PGNtoFEN.git"
   },
-  "repository": "https://github.com/MatthewMaginniss/PGNtoFEN",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/MatthewMaginniss/PGNtoFEN/issues",
@@ -29,5 +28,10 @@
     "chai": "^4.3.6",
     "mocha": "^9.2.0",
     "nodemon": "^2.0.15"
-  }
+  },
+  "homepage": "https://github.com/MatthewMaginniss/PGNtoFEN#readme",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {}
 }
