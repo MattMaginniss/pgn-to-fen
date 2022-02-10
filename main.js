@@ -1,3 +1,3 @@
-PGNtoFEN = require('./PGNtoFEN.js')
+let PGNtoFEN = require('./PGNtoFEN.js')
 
 exports.convertToFEN = PGNtoFEN.printFEN
