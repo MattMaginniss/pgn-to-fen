@@ -7,7 +7,7 @@ Chess fans are all welcome to use this. I hope it helps with whatever you want t
 
 ## Author
 
-- [@MatthewMaginniss](https://www.github.com/matthewmaginniss)
+[@MatthewMaginniss](https://www.github.com/matthewmaginniss)
 
 ## FAQ
 
