@@ -19,7 +19,7 @@
     "email" : "dev@mattmaginniss.com",
     "url" : "https://matthewmaginniss.com"
   },
-  "repository": "https://github.com/MatthewMaginniss/PGNtoFEN",
+  "repository": "git://github.com/MatthewMaginniss/PGNtoFEN.git",
   "license": "MIT",
   "bugs": {
     "url" : "https://github.com/MatthewMaginniss/PGNtoFEN/issues",
