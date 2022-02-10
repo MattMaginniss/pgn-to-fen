@@ -37,7 +37,6 @@ jobs:
           NODE_AUTH_TOKEN: ${{secrets.PUBLISH_GITHUB_TOKEN}}
       - name: "publish package"
         run: |
-          npm test
           echo @MatthewMaginniss:registry=https://npm.pkg.github.com/ >> .npmrc
           npm publish
         env:
