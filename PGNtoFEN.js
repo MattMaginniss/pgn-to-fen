@@ -18,11 +18,34 @@ moveNumber = 0
 lastMove = 'First move'
 
 function printFEN() {
-  return fenPositions + ' ' + (whiteMove ? 'w' : 'b') + ' ' + castlingRights + ' ' + encroissantSquare  + ' ' + halfMoves + ' ' + moveNumber
+  return getFENpositions() + ' ' + (whiteMove ? 'w' : 'b') + ' ' + (castlingRights ? castlingRights : '-') + ' ' + encroissantSquare  + ' ' + halfMoves + ' ' + moveNumber
 }
 
 function getFENpositions() {
-  // TODO: will calculate the fenPositions string from the chessBoardArray
+  currentFEN = ''
+  rowStarts = [8, 16, 24, 32, 40, 48, 56, 64]
+  rowStarts.forEach(n => {
+    blankSquares = 0
+    chessBoardArray.slice(n-8, n).forEach(i => {
+      if (i !== '1') {
+        if (blankSquares > 0) {
+          currentFEN += blankSquares
+          blankSquares = 0
+        }
+        currentFEN += i
+      }
+      else {
+        blankSquares += 1
+      }
+    })
+    if (blankSquares > 0) {
+      currentFEN += blankSquares
+      blankSquares = 0
+    }
+    currentFEN += '/'
+  })
+  currentFEN = currentFEN.slice(0,-1)
+  return currentFEN
 }
 
 
