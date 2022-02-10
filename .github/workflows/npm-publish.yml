@@ -35,7 +35,7 @@ jobs:
           # Defaults to the user or organization that owns the workflow file
           scope: '@MatthewMaginniss'
       - run: npm ci
-      - run: npm login --scope=@MatthewMaginniss --registry=https://npm.pkg.github.com
+      - run: npm set //npm.pkg.github.com/:_authToken ${{secrets.PUBLISH_GITHUB_TOKEN}}
       - run: npm publish
         env:
           NODE_AUTH_TOKEN: ${{secrets.PUBLISH_GITHUB_TOKEN}}
