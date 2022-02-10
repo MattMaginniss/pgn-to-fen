@@ -1,6 +1,6 @@
 {
   "name": "pgn-to-fen",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Javascript PGN to FEN converter",
   "main": "main.js",
   "scripts": {
