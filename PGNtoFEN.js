@@ -49,4 +49,4 @@ function getFENpositions() {
 }
 
 
-module.exports = { printFEN, getFENpositions }
+module.exports = { printFEN }
