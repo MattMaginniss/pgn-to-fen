@@ -14,8 +14,17 @@
     "fen",
     "converter"
   ],
-  "author": "MattMaginniss",
+  "author": {
+    "name" : "Matthew Maginniss",
+    "email" : "dev@mattmaginniss.com",
+    "url" : "https://matthewmaginniss.com"
+  },
+  "repository": "https://github.com/MatthewMaginniss/PGNtoFEN",
   "license": "MIT",
+  "bugs": {
+    "url" : "https://github.com/MatthewMaginniss/PGNtoFEN/issues",
+    "email" : "dev@mattmaginniss.com"
+  },
   "devDependencies": {
     "nodemon": "^2.0.15"
   }
