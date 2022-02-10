@@ -1,11 +1,11 @@
 {
-  "name": "pgntofen",
+  "name": "pgn-to-fen",
   "version": "0.0.1",
   "description": "Javascript PGN to FEN converter",
-  "main": "index.js",
+  "main": "main.js",
   "scripts": {
-    "start": "node index.js",
-    "dev": "nodemon index.js",
+    "start": "node main.js",
+    "dev": "nodemon main.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
