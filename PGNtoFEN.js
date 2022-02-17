@@ -48,5 +48,11 @@ function getFENpositions() {
   return currentFEN
 }
 
+function getMoves(pgn) {
+  linesCount = pgn.split(/\r\n|\r|\n/).length
+  moves = pgn.match(/(1\.).*/gm)[0]
+  return moves
+}
 
-module.exports = { printFEN }
+
+module.exports = { printFEN, getMoves }
